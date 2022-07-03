@@ -34,11 +34,11 @@ class ShareWindows extends SharePlatform {
           .join('&'),
     );
 
-    if (await canLaunchUrl(uri)) {
-      await launchUrl(uri);
-    } else {
-      throw Exception('Unable to share on windows');
-    }
+    // if (await canLaunchUrl(uri)) {
+    //  await launchUrl(uri);
+    //} else {
+    //  throw Exception('Unable to share on windows');
+    //}
   }
 
   /// Share files.
